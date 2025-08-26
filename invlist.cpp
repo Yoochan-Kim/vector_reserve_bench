@@ -107,7 +107,7 @@ void method3_resize_memcpy(const MockInvList* invlists, std::size_t nlist, std::
 
 int main() {
     const std::size_t ntotal = 1000000;
-    const std::size_t d = 512;
+    const std::size_t d = 256;
     const std::size_t nlist = 1000;
     
     std::cout << "Creating mock data..." << std::endl;
